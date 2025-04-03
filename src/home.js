@@ -8,6 +8,8 @@ export function createHomePage() {
   const welcomeText = document.createElement("p");
   const otherWelcomeTexts = document.createElement("p");
 
+
+  contentContainer.innerHTML = ''
   contentLogo.id = "content-logo";
   contentTexts.className = "content-texts";
   contentLogo.innerHTML = "<h1>Holder</h1>";

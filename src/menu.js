@@ -10,13 +10,13 @@ class Menu {
 
 menuArray.push(
   new Menu(
-    "testFood",
+    "Paella Special",
     "Paella with shrimp, mussels, pork, chicken, saffron rice, peas, and bell peppers.",
     "30.99",
     "https://www.thespruceeats.com/thmb/AQ5diUdXp9a9bXJMwtSTtG0lpr8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SeafoodPaellaWithPorkandChicken-Westend61_GettyImages-b0e7019672484c8a91c250d399d1d163.jpg"
   ),
   new Menu(
-    "Crispy Fried Oysters With Cornmeal Batter",
+    "Crispy Fried Oysters",
     "Fresh oysters, cornmeal batter, eggs, buttermilk, flour, and spices. Served with tartar sauce or rémoulade.",
     "44.99",
     "https://www.thespruceeats.com/thmb/TSY9sgPUTIRHw73LH5lmcWZAipA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fried-oysters-with-cornmeal-batter-3058714-hero-01-72bfb78fb3f945108b40c7b612c60d93.jpg"
@@ -40,7 +40,7 @@ menuArray.push(
     'https://www.thespruceeats.com/thmb/9_J6fGTFQz5sQNucdwvFLGtGd2w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ClassicFrenchSteakauPoivre-TheSpruce-5c62efe3c9e77c0001662762.jpg'
   ),
   new Menu(
-    'Grilled Filet Mignon with Bearnaise Sauce',
+    'Grilled Filet Mignon',
     "Grilled filet mignon, topped with Bearnaise sauce made of egg yolks, butter, vinegar, shallots, and tarragon.",
     '69.99',
     'https://www.thespruceeats.com/thmb/5fYyZdcgUtV_wYmp8OACRXO-x2o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grilled-filet-mignon-with-bearnaise-sauce-3573497-hero-01-9b0abe87c0524a799724135b99b483c8.jpg'

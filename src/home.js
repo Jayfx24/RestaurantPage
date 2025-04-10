@@ -3,7 +3,10 @@ export function createHomePage() {
   const contentLogo = document.createElement("div");
   const homeContainer = document.createElement("div");
   const showMenu = document.createElement("button");
+  const showReserve = document.createElement('button')
   const contentTexts = document.createElement("div");
+  const showBtns = document.createElement("div");
+
   const welcomeText = document.createElement("p");
   const otherWelcomeTexts = document.createElement("p");
 
@@ -19,13 +22,19 @@ export function createHomePage() {
   otherWelcomeTexts.innerHTML =
     "<p>Where culinary artistry meets timeless ambiance. Join us for an unforgettable dining experience rooted in passion, precision, and hospitality.</p>";
 
-  showMenu.textContent = "See Our Menu";
+  showBtns.id = 'showBtns'
+  showMenu.textContent = "Our Menu";
   showMenu.id ="showMenu"
+  showReserve.textContent = "Make a Reservation";
+  showReserve.id ="showReserve"
 
+
+  showBtns.appendChild(showMenu)
+  // showBtns.appendChild(showReserve)
   contentTexts.appendChild(welcomeText);
   contentTexts.appendChild(otherWelcomeTexts);
   homeContainer.appendChild(contentLogo);
   homeContainer.appendChild(contentTexts);
-  homeContainer.appendChild(showMenu)
+  homeContainer.appendChild(showBtns)
   contentContainer.appendChild(homeContainer);
 }

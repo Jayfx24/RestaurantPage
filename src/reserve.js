@@ -177,7 +177,7 @@ function spotReserved(formValues){
 
     ul.className = 'r-list'
     for (const [key, value] of Object.entries(formValues)) {
-        if (key){
+        if (value){
             const li = document.createElement('li');
             li.textContent = `${key.charAt(0).toUpperCase() + key.slice(1)} - ${value}`;
             ul.appendChild(li);
